@@ -12,9 +12,6 @@ public class SelectionSort {
                     smallest=j;
                 }
             }
-            temp=arr[smallest]; 
-            arr[smallest]=arr[i]; 
-            arr[i]=temp;
         }
         System.out.println("Array Elements After Selection Sort Are:"); 
         for(i=0;i<n;i++){
