@@ -3,7 +3,7 @@ public class SelectionSort {
         int i,j,smallest,n,temp;
         int arr[]={80,8,12,19,11};
         n=arr.length;
-        System.out.println("Name: Yogesh Rathod \n"); 
+        
         for(i=0;i<n;i++){ 
             smallest=i;
             for(j=i+1;j<n;j++){
