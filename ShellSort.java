@@ -3,7 +3,6 @@ public class ShellSort {
         int i, j, n, gap, temp;
         int arr[] = { 23, 29, 15, 19, 31, 7, 9, 5, 2 };
         n = arr.length;
-        System.out.println("\n");
         System.out.println("Array Elements are:");
         for (i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
