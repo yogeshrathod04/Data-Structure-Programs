@@ -35,7 +35,7 @@ public class QuickSort {
     }
 
     public static void main(String args[]) {
-        System.out.println("Name: Yogesh Rathod \nRoll No: C24092");
+        System.out.println("Name: Yogesh Rathod \n");
 
         // Example array
         int[] arr = { 6, 4, 5, 3, 1, 2 };
