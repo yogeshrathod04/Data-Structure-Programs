@@ -16,7 +16,7 @@ public class BinarySearch {
     }
 
     public static void main(String args[]) {
-        System.out.println("Name: Yogesh Rathod \nRoll No: C24092");
+        
         int arr[] = { -1, 0, -3, 4, 5, 8, 10 };
         int n = arr.length;
         System.out.println("\nThe Array Elements are: ");
