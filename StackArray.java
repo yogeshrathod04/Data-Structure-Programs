@@ -78,5 +78,28 @@ public class StackArray {
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
 
-           
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter Stack Element:");
+                    int item = scanner.nextInt(); // Using scanner to read the integer
+                    s.push(item); // Pushing the entered element
+                    break;
+                case 2:
+                    System.out.println("Popped Element is:");
+                    s.pop();
+                    break;
+                case 3:
+                    System.out.println("Stack Elements are:");
+                    s.stackDisplay();
+                    break;
+                case 4:
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Please choose a valid option.");
+            }
+        } while (choice != 4);
+
+        scanner.close();
+    }
 }
